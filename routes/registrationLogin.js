@@ -23,7 +23,8 @@ registrationLogin.post('/registration', function(req, res) {
       }
       res.json({
         success: true,
-        data: data
+        data: data,
+        msg:'registration done'
       })
     })
   } else {
